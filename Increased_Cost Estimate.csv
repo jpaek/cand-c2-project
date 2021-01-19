@@ -1,0 +1,16 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Initial_Cost_Estimate,Amazon Virtual Private Cloud (VPC),0,77.85,934.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon EC2,0,3664.98,43979.76,USD,"Operating system (Linux), Quantity (36), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (a1.2xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,50.03,600.36,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,8230.511999999999,98766.14,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Instance type (db.m5.12xlarge), Additional backup storage (1000 GB)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,5386.32,64635.84,USD,"Operating system (Linux), Quantity (36), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c5a.2xlarge)"
+
+Changes made:
+* Change the type of the EC2 instances
+* Increased the storage of the RDS
+* Increased the size of S3
+* Increased the data transfer limit of S3
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
