@@ -1,12 +1,15 @@
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),Initial_Cost_Estimate,Amazon Virtual Private Cloud (VPC),0,33.3,399.60,USD,Number of NAT Gateways (1)
-My Estimate,US East (N. Virginia),,Amazon EC2,0,1112.62,13351.44,USD,"Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t4g.xlarge)"
-My Estimate,US East (N. Virginia),,S3 Standard,0,15.8,189.60,USD,S3 Standard storage (100 GB per month)
-My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
-My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,3870.256,46443.07,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (db.m5.12xlarge), Additional backup storage (100 GB)"
-My Estimate,US East (N. Virginia),,Amazon EC2,0,700.32,8403.84,USD,"Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c5a.large)"
+Reduced Estimate,US East (N. Virginia),Initial_Cost_Estimate,Amazon Virtual Private Cloud (VPC),0,41.85,502.20,USD,Number of NAT Gateways (1)
+Reduced Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (16), Number of EIPs per instance (1)"
+Reduced Estimate,US East (N. Virginia),Initial_Load_Balancer,Application Load Balancer,0,1184.43,14213.16,USD,Number of Application Load Balancers (1)
+Reduced Estimate,US East (N. Virginia),,Amazon EC2,0,1144.62,13735.44,USD,"Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (100 GB), Instance type (t4g.xlarge)"
+Reduced Estimate,US East (N. Virginia),,S3 Standard,0,2.57,30.84,USD,S3 Standard storage (100 GB per month)
+Reduced Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+Reduced Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1982.7,23792.40,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (2), Instance type (db.m2.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (100 GB)"
+Reduced Estimate,US East (N. Virginia),,Amazon EC2,0,732.32,8787.84,USD,"Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (100 GB), Instance type (c5a.large)"
+Reduced Estimate,US East (N. Virginia),,Amazon API Gateway,0,5,60.00,USD,"HTTP API requests units (millions), Average size of each request (34 KB), REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), Average message size (32 KB), Requests (5 per month)"
 
-Changes made: Reduce the number RDS master instance.
+Changes made: Changed the type of the RDS instance
 
 Acknowledgement
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
